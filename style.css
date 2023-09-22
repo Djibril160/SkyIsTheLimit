@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+}
+
+.image {
+  display: flex;
+  background-color: blue;
+}
