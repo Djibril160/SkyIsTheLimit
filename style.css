@@ -1,8 +1,42 @@
-.container {
-  display: grid;
+.page {
+ height: 200vh;
+ width: 100%;
+margin: 0px;
 }
 
-.image {
-  display: flex;
-  background-color: blue;
+#header {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+  border: solid pink 5px;
+}
+
+.logo {
+  margin-top: 350px;
+  margin-left: 900px;
+
+}
+
+ .titre {
+  color: white;
+  margin-left: 860px;
+ 
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  background-color:rgb(41,46,56);
+  border: solid red 1px;
+}
+
+.row {
+  display: block;
+  background-color: white;
+  width: 800px;
+  
+  justify-content: center;
+  padding: 20px;
 }
